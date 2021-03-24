@@ -38,9 +38,9 @@ while true do
 	puts "相手：#{computer_direction}"
 	
 	if player_winner_flag && player_direction == computer_direction
-	puts "あなたの勝ちです!"
+	puts "win"
 	elsif !player_winner_flag && player_direction == computer_direction
-	puts "CPの勝ちです!"
+	puts "lose"
 	end
 	else
 	break
